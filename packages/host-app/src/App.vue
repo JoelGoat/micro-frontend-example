@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Host App</h1>
+  <RemoteApp />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RemoteApp from 'remote_app1/RemoteApp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    RemoteApp,
+  },
 }
 </script>
 
